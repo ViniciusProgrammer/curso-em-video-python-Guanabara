@@ -1,4 +1,6 @@
 '''
+Operadores aritméticos
+
 Exemplos dos operandos aritméticos
 
 A soma = 5 + 2 = 7
