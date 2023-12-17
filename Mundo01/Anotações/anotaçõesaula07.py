@@ -30,6 +30,9 @@ Potenciação em python:
 ou podemos usar a função pow() que é uma função embutida na linguagem python
 pow(4, 3) = 64 porém aqui se perde a ordem de precedência de operadores.
 
+n = int(input('Digite um número: '))
+print(pow(n, 1/2)) Também se calcula a raiz quadrada de um número dessa forma
+
 Raiz quadrada em python:
 podemos fazer da seguinte forma também
 
