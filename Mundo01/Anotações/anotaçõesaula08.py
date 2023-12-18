@@ -23,4 +23,16 @@ num = random.random() = gera um número float aleatório entre 0 e 1
 num = random.randint(1, 10) = gera um número inteiro aleatório entre 1 e 10 esses parametros podem ser alterados
 print(num)
 
+Dicas do exercicio 019:
+Resolução do exercício 019 do curso de Python do canal Curso em Vídeo do professor Gustavo Guanabara
+
+import random
+aluno1 = input('Digite o nome do primeiro aluno: ')
+aluno2 = input('Digite o nome do segundo aluno: ')
+aluno3 = input('Digite o nome do terceiro aluno: ')
+aluno4 = input('Digite o nome do quarto aluno: ')
+lista = [aluno1, aluno2, aluno3, aluno4] # Cria uma lista com os nomes dos alunos, lista no Python é dessa forma
+escolhido = random.choice(lista) # Escolhe um item aleatório de uma lista
+print('O aluno escolhido foi {}'.format(escolhido))
+
 '''
