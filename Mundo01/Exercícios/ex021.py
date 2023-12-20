@@ -1,3 +1,3 @@
 from playsound import playsound
 
-playsound(caminho)
+playsound("Ex021.mp3")
