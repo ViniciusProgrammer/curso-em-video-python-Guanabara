@@ -35,4 +35,6 @@ lista = [aluno1, aluno2, aluno3, aluno4] # Cria uma lista com os nomes dos aluno
 escolhido = random.choice(lista) # Escolhe um item aleatório de uma lista
 print('O aluno escolhido foi {}'.format(escolhido))
 
+Fim das anotações da aula 08
+
 '''
